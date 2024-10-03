@@ -14,3 +14,32 @@
   --bs-secondary-color: #29a9fd;
   --bs-supporting-color: #c850c0;
 }
+
+hl,
+h2,
+h3,
+h4,
+h5 {
+  font-family: " Lexend Deca ", sans-serif;
+  color: var(--bs-dark-color);
+}
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  line-height: 3rem;
+  font-weight: 600;
+  font-size: 3.4rem;
+}
+
+p {
+  margin: 0;
+  font-weight: 400;
+  font-size: Irem;
+  color: var(--bs-dark-color);
+  letter-spacing: 0.07 rem;
+  line-height: 1.55rem;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
